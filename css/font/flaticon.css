@@ -1,0 +1,61 @@
+/*
+Flaticon icon font: Flaticon
+Creation date: 14/04/2021 08:57
+*/
+
+@font-face {
+font-family: "flaticon";
+src: url("./Flaticon.eot");
+src: url("./flaticon.ttf?f5250586501f415f317b93a710cbc264") format("truetype"),
+     url("./flaticon.woff?f5250586501f415f317b93a710cbc264") format("woff"),
+     url("./flaticon.woff2?f5250586501f415f317b93a710cbc264") format("woff2"),
+     url("./flaticon.eot?f5250586501f415f317b93a710cbc264#iefix") format("embedded-opentype"),
+     url("./flaticon.svg?f5250586501f415f317b93a710cbc264#flaticon") format("svg");
+font-style: normal;
+font-weight: normal !important;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: "Flaticon";
+      src: url("./flaticon.svg?f5250586501f415f317b93a710cbc264#flaticon") format("svg");
+    }
+  }
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-size: 30px;
+    font-style: normal;
+    margin-left: 20px;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-behance:before {
+    content: "\f101";
+}
+.flaticon-facebook:before {
+    content: "\f102";
+}
+.flaticon-github:before {
+    content: "\f103";
+}
+.flaticon-instagram:before {
+    content: "\f104";
+}
+.flaticon-linkedin:before {
+    content: "\f105";
+}
+.flaticon-pinterest:before {
+    content: "\f106";
+}
+.flaticon-whatsapp:before {
+    content: "\f107";
+}
+.flaticon-youtube:before {
+    content: "\f108";
+}
+
